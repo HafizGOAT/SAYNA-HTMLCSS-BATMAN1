@@ -33,6 +33,32 @@ body{
     color: var(--textColor);
     background-color: var(--darkColor);
 }
+.upbar{
+    border-top: #bcbbbd 3px solid ;
+    position: relative;
+    opacity: .4;
+    top: 120px;
+    margin-left:100px;
+    max-width: 85%;
+}
+
+.leftbar{
+    border-left: #bcbbbd 3px solid ;
+    opacity: .4;
+    float: left;
+    height: 5100px;
+    margin-left:97px;
+}
+
+.rightbar{
+    border-left: #bcbbbd 3px solid ;
+    opacity: .4;
+    float: left;
+    height: 5100px;
+    position: absolute;
+    right: 99px;
+}
+
 h1{
     font-family: 'Rajdhani';
     font-size: 36px ;
@@ -128,16 +154,28 @@ nav ul li a:hover{
     }
 
 }
+.scroll img:hover {
+    filter: invert(0%) sepia(100%) saturate(8000%) hue-rotate(360deg) brightness(299%) contrast(100%) opacity(100%);
+  }
+  
+.Aside{
+    margin-top: 8%;
+}
 .scroll{
-    position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
-    right: 80px;
-    top: 300px;
+    justify-content: flex-end;
+    position: absolute;
+    top: 360px;
+    right: 48px;
 }
-.scroll .social_media{
-    padding: 10px 0;
+
+
+.scroll .social{
+   padding: 15px 0;
+
+
 }
 .content{
     display: flex;
